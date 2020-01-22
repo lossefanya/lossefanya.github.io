@@ -1,0 +1,65 @@
+
+
+
+
+<!-- ■ 일반 화면으로 출력 시작  ##### update20110321 #####  -->
+	<html>
+		<head>
+			<meta charset='utf-8'>
+<meta http-equiv='Content-Type' content='text/html; charset=UTF-8'>
+<meta http-equiv='X-UA-Compatible' content='IE=EmulateIE9'>
+			<meta name="viewport" content="user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, width=device-width" />
+			<title>INFORMATION</title>
+			<style type='text/css'>
+				body,td,div,form,input,select{font-size:9pt; overflow:auto; border-width:0; font-family:굴림,Tahoma;}
+				a,label{cursor:pointer;}
+			</style>
+			<script type="text/javascript">
+				function buttonclickAct(){
+					 history.go(-1); 
+											TimeDlay=setTimeout("window.close()",200);
+											TimeDlay2=setTimeout("history.back()",800);
+						TimeDlay3=setTimeout("history.go(-3)",1500);
+				}
+				function onload_focus(){
+					try{ document.getElementById('confirmbtn').focus(); }catch(e){}
+				}
+			</script>
+		</head>
+		<body bgcolor='#fafafa' onload='onload_focus()'>
+
+			<div style='text-align:center; height:30px;'>
+				<!--[if IE]><bgsound src='./img/sound/confirm.wav'></bgsound><![endif]-->
+				<form action= "http://www.aoneinstitutesat.com/aoi/method='post'" id='mvlocationurl' style='padding:0; margin:0;'></form>
+			</div>
+
+			<div style='text-align:center;'>
+
+				<table cellpadding='0' cellspacing='0' align='center'>
+					<tr>
+						<td style='border:1px solid #555555; padding:10px 20px 10px 20px;  line-height:150%; background-color:#ffffff;'>회원 로그인 하십시오.</td>
+						<td bgcolor='#cccccc' valign='top'><div style='width:3px; height:4px; background-color:#fafafa;'></div></td>
+					</tr>
+					<tr>
+						<td colspan='2' bgcolor='#cccccc' valign='top'><div style='width:4px; height:3px; background-color:#fafafa;'></div></td>
+					</tr>
+				</table>
+				
+				<div style="text-align:center; margin-top:30px;">
+					<a onclick='buttonclickAct()' title='곧바로 [엔터] 키를 누르면 됩니다.'><img src='img/board/button/confirm1.gif'  /></a><br />
+					<!--[if IE]><input type='button' id='confirmbtn' onclick='buttonclickAct()' style='width:1px; height:1px; background-color:#ffffff; border-width:0; color:#ffffff;' /><![endif]-->
+				</div>
+
+			</div>
+
+		</body>
+	</html>
+<!-- ■ 일반 화면으로 출력 끝 -->
+
+
+
+
+
+
+
+
